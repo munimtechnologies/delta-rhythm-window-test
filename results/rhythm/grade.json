@@ -1,0 +1,114 @@
+[
+ {
+  "id": "P1",
+  "prediction": "loader matches at least 60 bird and mammal species to the tree",
+  "prior": 0.8,
+  "outcome": true,
+  "brier": 0.03999999999999998
+ },
+ {
+  "id": "P2",
+  "prediction": "OU beats BM by AIC on the observed data",
+  "prior": 0.8,
+  "outcome": true,
+  "brier": 0.03999999999999998
+ },
+ {
+  "id": "P3",
+  "prediction": "OU over BM survives the BM parametric bootstrap (p < 0.05)",
+  "prior": 0.65,
+  "outcome": true,
+  "brier": 0.12249999999999998
+ },
+ {
+  "id": "P4",
+  "prediction": "window-bounded BM (primary) beats BM by AIC",
+  "prior": 0.55,
+  "outcome": false,
+  "brier": 0.30250000000000005
+ },
+ {
+  "id": "P5",
+  "prediction": "OU advantage over window-bounded BM is NOT significant (p >= 0.05)",
+  "prior": 0.45,
+  "outcome": false,
+  "brier": 0.2025
+ },
+ {
+  "id": "P6",
+  "prediction": "power of the OU-vs-window test is at least 0.5",
+  "prior": 0.5,
+  "outcome": true,
+  "brier": 0.25
+ },
+ {
+  "id": "P7",
+  "prediction": "fitted OU optimum lies in 2.0-3.6 Hz",
+  "prior": 0.75,
+  "outcome": true,
+  "brier": 0.0625
+ },
+ {
+  "id": "P8",
+  "prediction": "OU half-life is below 1 tree height",
+  "prior": 0.75,
+  "outcome": true,
+  "brier": 0.0625
+ },
+ {
+  "id": "P9",
+  "prediction": "fewer than 2% of rows lie outside 0.5-20 Hz",
+  "prior": 0.7,
+  "outcome": true,
+  "brier": 0.09000000000000002
+ },
+ {
+  "id": "P10",
+  "prediction": "median cycles per sequence is below 10",
+  "prior": 0.5,
+  "outcome": null,
+  "brier": null
+ },
+ {
+  "id": "P11",
+  "prediction": "within-species slope of log rate on log length is negative, CI excludes 0",
+  "prior": 0.55,
+  "outcome": null,
+  "brier": null
+ },
+ {
+  "id": "P12",
+  "prediction": "all-taxa verdict equals the birds-and-mammals verdict",
+  "prior": 0.7,
+  "outcome": true,
+  "brier": 0.09000000000000002
+ },
+ {
+  "id": "P13",
+  "prediction": "all three sensitivity windows give the primary verdict",
+  "prior": 0.45,
+  "outcome": true,
+  "brier": 0.30250000000000005
+ },
+ {
+  "id": "P14",
+  "prediction": "species geometric mean rate lies in 2.025-3.375 Hz",
+  "prior": 0.75,
+  "outcome": true,
+  "brier": 0.0625
+ },
+ {
+  "id": "P15",
+  "prediction": "in at least half of window-only simulations OU beats BM by AIC",
+  "prior": 0.5,
+  "outcome": false,
+  "brier": 0.25
+ },
+ {
+  "id": "P16",
+  "prediction": "species SD of log10 rate is below half the uniform-window SD",
+  "prior": 0.45,
+  "outcome": false,
+  "brier": 0.2025
+ }
+]

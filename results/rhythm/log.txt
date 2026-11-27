@@ -1,0 +1,9 @@
+16:37:40 obs fits done: dll(OU-BM)=5.811
+16:42:43 BM null done: p=0.0025
+16:55:22 window primary_0.5_20: p=0.0025 power=0.99 verdict=OPTIMUM_SURVIVES_WINDOW
+17:06:05 window low_0.4_20: p=0.0066 power=1.00 verdict=OPTIMUM_SURVIVES_WINDOW
+17:16:53 window high_0.5_10: p=0.0066 power=0.99 verdict=OPTIMUM_SURVIVES_WINDOW
+17:22:27 window wide_0.33_30: p=0.0066 power=0.97 verdict=OPTIMUM_SURVIVES_WINDOW
+17:22:28 obs fits done: dll(OU-BM)=9.004
+17:25:13 BM null done: p=0.0050
+17:30:53 window primary_0.5_20: p=0.0050 power=1.00 verdict=OPTIMUM_SURVIVES_WINDOW
